@@ -39,6 +39,8 @@ class DlpuNetwork
 
         $content = $this->myCurl($this->urlConfig);
 
+        $content = iconv("GBK", "UTF-8", $content);
+
         preg_match_all('/grayBackground">(.*?)</', $content, $matches);
 
         return $matches[1];
