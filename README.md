@@ -16,13 +16,7 @@ $ composer require xu42/dlpu-network
 
 ## Usage
 
-``` php
-require_once './vendor/autoload.php';
-$username = '1305040301';
-$password = 'yourpassword';
-$dlpuNetwork = new Xu42\DlpuNetwork\DlpuNetwork($username, $password);
-$config = $dlpuNetwork->getConfig();	// IP 和 MAC 地址等配置信息
-```
+Please see [debug.php](debug.php)
 
 ## Change log
 
