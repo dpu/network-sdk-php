@@ -2,11 +2,11 @@
 
 require 'vendor/autoload.php';
 
-$dlpuNetwork = new \Cn\Xu42\DlpuNetwork\Service\DlpuNetworkService();
+$networkService = new \Org\DLPU\Network\Service\NetworkService();
 
-$token = $dlpuNetwork->getToken('1305040333', 'pass');
+$token = $networkService->getToken('1305040333', 'pass');
 var_dump($token);
 
-$config = $dlpuNetwork->query($token);
+$config = $networkService->query($token);
 var_dump($config);
 

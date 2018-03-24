@@ -1,11 +1,11 @@
 <?php
 
-namespace Cn\Xu42\DlpuNetwork\BizImpl;
+namespace Org\DLPU\Network\BizImpl;
 
-use Cn\Xu42\DlpuNetwork\Exception\ArgumentException;
-use Cn\Xu42\DlpuNetwork\Exception\SystemException;
+use Org\DLPU\Network\Exception\ArgumentException;
+use Org\DLPU\Network\Exception\SystemException;
 
-class DlpuNetworkBizImpl
+class NetworkBizImpl
 {
     const URL_LOGIN = 'http://210.30.48.36:8080/selfservice/module/scgroup/web/login_judge.jsf';
     const URL_CONFIG = 'http://210.30.48.36:8080/selfservice/module/webcontent/web/networkdevice_list.jsf';

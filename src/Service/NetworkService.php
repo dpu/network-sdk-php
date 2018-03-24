@@ -1,17 +1,17 @@
 <?php
 
-namespace Cn\Xu42\DlpuNetwork\Service;
+namespace Org\DLPU\Network\Service;
 
-use Cn\Xu42\DlpuNetwork\BizImpl\DlpuNetworkBizImpl;
-use Cn\Xu42\DlpuNetwork\Exception\SystemException;
+use Org\DLPU\Network\BizImpl\NetworkBizImpl;
+use Org\DLPU\Network\Exception\SystemException;
 
-class DlpuNetworkService
+class NetworkService
 {
     private $bizImpl = null;
 
     public function __construct()
     {
-        $this->bizImpl = new DlpuNetworkBizImpl();
+        $this->bizImpl = new NetworkBizImpl();
     }
 
     /**
@@ -35,7 +35,7 @@ class DlpuNetworkService
      * 获取配置信息
      *
      * @param string $token
-     * @return string
+     * @return array
      * @throws SystemException
      */
     public function query($token)

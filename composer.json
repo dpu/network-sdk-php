@@ -1,13 +1,13 @@
 {
-    "name": "xu42/dlpu-network",
-    "description": "dlpu-network 大连工业大学校园网自助服务",
+    "name": "dpu/network",
+    "description": "大连工业大学校园网自助服务",
     "keywords": [
-        "xu42",
-        "dlpu-network",
+        "dpu",
+        "dpu-network",
         "校园网自助服务",
         "大连工业大学"
     ],
-    "homepage": "https://github.com/xu42/dlpu-network",
+    "homepage": "https://github.com/dpu/network-sdk-php",
     "license": "MIT",
     "authors": [
         {
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Cn\\Xu42\\DlpuNetwork\\": "src"
+            "Org\\DLPU\\Network\\": "src"
         }
     },
     "repositories": {

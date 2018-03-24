@@ -1,6 +1,6 @@
 <?php
 
-namespace Cn\Xu42\DlpuNetwork\Exception;
+namespace Org\DLPU\Network\Exception;
 
 class SystemException extends BaseException
 {
